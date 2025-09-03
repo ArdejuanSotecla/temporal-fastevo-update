@@ -59,7 +59,7 @@ export const NotifyToUploadVideoForm = () => {
             <FormItem>
               <FormLabel>Contraseña</FormLabel>
               <FormControl>
-                <Input {...field} suppressHydrationWarning />
+                <Input {...field} suppressHydrationWarning type="password" />
               </FormControl>
               <FormMessage />
             </FormItem>
