@@ -57,7 +57,7 @@ export const NotifyToUploadVideoForm = () => {
           name="token"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Token</FormLabel>
+              <FormLabel>Contraseña</FormLabel>
               <FormControl>
                 <Input {...field} suppressHydrationWarning />
               </FormControl>
